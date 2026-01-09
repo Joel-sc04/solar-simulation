@@ -4,18 +4,18 @@
 ![Libraries](https://img.shields.io/badge/Libraries-NumPy%20|%20Astropy%20|%20Plotly-green)
 ![Status](https://img.shields.io/badge/Status-Educational-orange)
 
-## 📌 Descripció i Objectiu
+##  Descripció i Objectiu
 Aquest projecte simula i visualitza la dinàmica orbital de la Terra i la radiació solar incident en un panell situat a **Barcelona**.
 
 El codi combina mètodes numèrics clàssics amb dades astrofísiques d'alta precisió per estudiar l'eficiència energètica fotovoltaica sota diferents condicions (incloent-hi ombres orogràfiques).
 
-### 📄 Informe Científic
+###  Informe Científic
 Per veure la base teòrica detallada, el desenvolupament matemàtic i la discussió profunda dels resultats, consulteu el document adjunt:
-👉 **[Llegir l'Informe Complet (PDF)](./Informe.pdf)**
+ **[Llegir l'Informe Complet (PDF)](./Informe.pdf)**
 
 ---
 
-## 👥 Autors
+##  Autors
 Projecte desenvolupat per l'equip de Física:
 * **Joel Sánchez**
 * **Rubén Moreno**
@@ -24,10 +24,10 @@ Projecte desenvolupat per l'equip de Física:
 
 ---
 
-## 📂 Fitxers de Sortida
+##  Fitxers de Sortida
 En executar la simulació, es generen automàticament els següents resultats gràfics:
 
-### 🌌 Dinàmica Orbital
+###  Dinàmica Orbital
 | Fitxer | Descripció |
 | :--- | :--- |
 | `orbites_euler_vs_rk4.png` | Comparativa visual de les trajectòries (Euler vs RK4). |
@@ -35,7 +35,7 @@ En executar la simulació, es generen automàticament els següents resultats gr
 | `desviacio_percentual.png` | Anàlisi de l'error numèric i estabilitat. |
 | `errors.png` | Quantificació d'errors en el càlcul d'òrbites. |
 
-### ☀️ Energia i Simulació Solar
+###  Energia i Simulació Solar
 | Fitxer | Descripció |
 | :--- | :--- |
 | `energia_simulacio.png` | Energia diària generada (Simulació pròpia). |
@@ -44,7 +44,7 @@ En executar la simulació, es generen automàticament els següents resultats gr
 | `energia_per_plaques.png` | Comparativa: 1 placa vs 2 plaques vs Optimització. |
 | `energia_anual_en_funcio_inclinacio.png` | Estudi d'eficiència segons el *tilt* del panell. |
 
-### 🌍 Efectes i Visualitzacions
+###  Efectes i Visualitzacions
 | Fitxer | Descripció |
 | :--- | :--- |
 | `analema_solar_barcelona.png` | Projecció de l'analema vist des de Barcelona. |
@@ -55,7 +55,7 @@ En executar la simulació, es generen automàticament els següents resultats gr
 
 ---
 
-## 🛠️ Requeriments i Instal·lació
+##  Requeriments i Instal·lació
 El projecte requereix un entorn **Python 3**. Les dependències principals són per a càlcul vectorial, astrometria i gràfics.
 
 ```bash
